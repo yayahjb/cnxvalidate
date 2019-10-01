@@ -147,7 +147,7 @@ void NXVkill(pNXVcontext self)
 }
 /*----------------------------------------------------------------*/
 void NXVsetNXDLRetriever(pNXVcontext self, RetrieveNXDL retriever,
-												 void *userData)
+			 void *userData)
 {
 	assert(self != NULL);
 	self->nxdlRetriever = retriever;
